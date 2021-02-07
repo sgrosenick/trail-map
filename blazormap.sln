@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazormap", "blazormap\blazormap.csproj", "{AAC8C7ED-6B91-4E64-91F3-58946ADAACAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC8C7ED-6B91-4E64-91F3-58946ADAACAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC8C7ED-6B91-4E64-91F3-58946ADAACAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC8C7ED-6B91-4E64-91F3-58946ADAACAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC8C7ED-6B91-4E64-91F3-58946ADAACAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {719CDC15-073D-4CDD-8B59-7CB0B56AC6A1}
+	EndGlobalSection
+EndGlobal
