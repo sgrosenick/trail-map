@@ -1,3 +1,26 @@
 ﻿@page "/"
 
-<Toggle />
+@inject IJSRuntime js
+
+<div id="controls"></div>
+<div id="map" @ref=MapElement></div>
+
+
+@code
+{
+    ElementReference MapElement;
+
+    async Task LoadMap(ElementReference ele)
+    {
+        await js.InvokeVoidAsync("loadMap", ele);
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await LoadMap(MapElement);
+        }
+    }
+
+ } 
